@@ -1,0 +1,201 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.navbar{
+    text-align: right;
+}
+
+
+.outdiv {
+    padding: 0 4% 0 4%;
+  }
+  @media screen and (min-width: 1024px) {
+    .outdiv {
+      padding: 0 4% 0 4%;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .outdiv {
+      padding: 0 7% 0 7%;
+    }
+  }
+
+.main-img{
+    align-items: flex-end;
+}
+
+
+@media screen and (max-width: 320px){
+    .phone1{
+        align-items: center;
+    }
+}
+.mainHead{
+    font-weight: 700;
+    font-size: 60.8px;
+}
+
+
+.storebtn1{
+    align-items: center;
+    padding: 10px 20px 10px 5px;
+}
+
+
+.storebtn2{
+    align-items: center;
+    padding: 10px 20px 10px 5px;
+}
+
+
+.container { 
+    width: 90%;
+  }
+
+
+.sub-sec-1 h1{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+.card{
+    border: 0ch;
+    align-self: center;
+    height: 266px;
+    width: 100%;
+}
+
+
+.card-img-top{
+    padding: 22px 5px 5px 5px;
+    width: 106.4588px;
+}
+
+.card h1{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.card p{
+    font-size: 15px;
+    font-weight: 270;
+}
+
+
+.row {
+    padding: 40px 5px 20px 5px;
+
+}
+
+
+
+/* .mycustom {
+    border: solid 1px green;
+    position: relative;
+} */ 
+.mycustom input[type=text] {
+    border: none;
+    width: 500px;
+    padding-right: px;
+}
+.mycustom .input-group-prepend {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;
+    z-index:9;
+}
+
+.form-control{
+    width: 114%;
+}
+
+
+
+
+  .socialLogo > button {
+    background: none;
+    border: none;
+  }
+  .socialLogo > span {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #637082;
+  }
+
+.socialLogo{
+    align-items: center;
+}
+
+
+
+
+.product{
+    padding-top: 8%;
+    margin-bottom: 60px;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    margin-left: -1%;
+}
+
+
+.product > a {
+    text-decoration: none;
+    color: #6b7990;
+    margin-right: 3%;
+    margin-top: 50%;
+  }
+
+
+
+
+.copyright{
+    padding-top: 8%;
+    margin-bottom: 60px;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    margin-left: -1%;
+    
+ }
+
+
+.copyright > a {
+  text-decoration: none;
+  color: #6b7990;
+  margin-right: 3%;
+  margin-top: 50%;
+}
+
+
+
+
+.emailSubButton {
+    width: fit-content;
+    height: 92%;
+    border: solid 1px #a5b7ca;
+    border-radius: 0.3rem;
+  }
+  
+
+  
+.mailandlogo{
+    align-items: center;
+}
+
+  @media screen and (max-width: 770px) {
+    .socialLogo {
+      padding-top: 10%;
+      align-items: center;
+    }
+  }
+  @media screen and (max-width: 770px) {
+    .emailSubButton {
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    }
+}
+  
